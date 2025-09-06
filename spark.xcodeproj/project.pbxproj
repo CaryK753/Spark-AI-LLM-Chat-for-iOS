@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A2363972E6B455500EB3AFC /* WKMarkdownView in Frameworks */ = {isa = PBXBuildFile; productRef = 4A2363962E6B455500EB3AFC /* WKMarkdownView */; };
+		4A23639A2E6B456700EB3AFC /* LLMChatOpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 4A2363992E6B456700EB3AFC /* LLMChatOpenAI */; };
+		4A3CFE7F2E6ADBDF00CB6F4A /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4A3CFE7E2E6ADBDF00CB6F4A /* Supabase */; };
+		4A7C95A42E69C5AA00A3DE43 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 4A7C95A32E69C5AA00A3DE43 /* Auth */; };
+		4A7C95A62E69C5AA00A3DE43 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 4A7C95A52E69C5AA00A3DE43 /* Functions */; };
+		4A7C95A82E69C5AA00A3DE43 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 4A7C95A72E69C5AA00A3DE43 /* PostgREST */; };
+		4A7C95AA2E69C5AA00A3DE43 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 4A7C95A92E69C5AA00A3DE43 /* Realtime */; };
+		4A7C95AC2E69C5AA00A3DE43 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 4A7C95AB2E69C5AA00A3DE43 /* Storage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A87272F2E64884100F693D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A8727172E64883F00F693D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A87271E2E64883F00F693D8;
+			remoteInfo = spark;
+		};
+		4A8727392E64884100F693D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A8727172E64883F00F693D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A87271E2E64883F00F693D8;
+			remoteInfo = spark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A87271F2E64883F00F693D8 /* spark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A87272E2E64884100F693D8 /* sparkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sparkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8727382E64884100F693D8 /* sparkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sparkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4A87274D2E648CAC00F693D8 /* Exceptions for "spark" folder in "spark" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4A87271E2E64883F00F693D8 /* spark */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4A8727212E64883F00F693D8 /* spark */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4A87274D2E648CAC00F693D8 /* Exceptions for "spark" folder in "spark" target */,
+			);
+			path = spark;
+			sourceTree = "<group>";
+		};
+		4A8727312E64884100F693D8 /* sparkTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = sparkTests;
+			sourceTree = "<group>";
+		};
+		4A87273B2E64884100F693D8 /* sparkUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = sparkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A87271C2E64883F00F693D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7C95A82E69C5AA00A3DE43 /* PostgREST in Frameworks */,
+				4A7C95A62E69C5AA00A3DE43 /* Functions in Frameworks */,
+				4A3CFE7F2E6ADBDF00CB6F4A /* Supabase in Frameworks */,
+				4A7C95A42E69C5AA00A3DE43 /* Auth in Frameworks */,
+				4A23639A2E6B456700EB3AFC /* LLMChatOpenAI in Frameworks */,
+				4A7C95AC2E69C5AA00A3DE43 /* Storage in Frameworks */,
+				4A2363972E6B455500EB3AFC /* WKMarkdownView in Frameworks */,
+				4A7C95AA2E69C5AA00A3DE43 /* Realtime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A87272B2E64884100F693D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8727352E64884100F693D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A8727162E64883F00F693D8 = {
+			isa = PBXGroup;
+			children = (
+				4A8727212E64883F00F693D8 /* spark */,
+				4A8727312E64884100F693D8 /* sparkTests */,
+				4A87273B2E64884100F693D8 /* sparkUITests */,
+				4A87274E2E64935600F693D8 /* Frameworks */,
+				4A8727202E64883F00F693D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A8727202E64883F00F693D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A87271F2E64883F00F693D8 /* spark.app */,
+				4A87272E2E64884100F693D8 /* sparkTests.xctest */,
+				4A8727382E64884100F693D8 /* sparkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A87274E2E64935600F693D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A87271E2E64883F00F693D8 /* spark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A8727422E64884100F693D8 /* Build configuration list for PBXNativeTarget "spark" */;
+			buildPhases = (
+				4A87271B2E64883F00F693D8 /* Sources */,
+				4A87271C2E64883F00F693D8 /* Frameworks */,
+				4A87271D2E64883F00F693D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4A8727212E64883F00F693D8 /* spark */,
+			);
+			name = spark;
+			packageProductDependencies = (
+				4A7C95A32E69C5AA00A3DE43 /* Auth */,
+				4A7C95A52E69C5AA00A3DE43 /* Functions */,
+				4A7C95A72E69C5AA00A3DE43 /* PostgREST */,
+				4A7C95A92E69C5AA00A3DE43 /* Realtime */,
+				4A7C95AB2E69C5AA00A3DE43 /* Storage */,
+				4A3CFE7E2E6ADBDF00CB6F4A /* Supabase */,
+				4A2363962E6B455500EB3AFC /* WKMarkdownView */,
+				4A2363992E6B456700EB3AFC /* LLMChatOpenAI */,
+			);
+			productName = spark;
+			productReference = 4A87271F2E64883F00F693D8 /* spark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A87272D2E64884100F693D8 /* sparkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A8727452E64884100F693D8 /* Build configuration list for PBXNativeTarget "sparkTests" */;
+			buildPhases = (
+				4A87272A2E64884100F693D8 /* Sources */,
+				4A87272B2E64884100F693D8 /* Frameworks */,
+				4A87272C2E64884100F693D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A8727302E64884100F693D8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4A8727312E64884100F693D8 /* sparkTests */,
+			);
+			name = sparkTests;
+			packageProductDependencies = (
+			);
+			productName = sparkTests;
+			productReference = 4A87272E2E64884100F693D8 /* sparkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A8727372E64884100F693D8 /* sparkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A8727482E64884100F693D8 /* Build configuration list for PBXNativeTarget "sparkUITests" */;
+			buildPhases = (
+				4A8727342E64884100F693D8 /* Sources */,
+				4A8727352E64884100F693D8 /* Frameworks */,
+				4A8727362E64884100F693D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A87273A2E64884100F693D8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4A87273B2E64884100F693D8 /* sparkUITests */,
+			);
+			name = sparkUITests;
+			packageProductDependencies = (
+			);
+			productName = sparkUITests;
+			productReference = 4A8727382E64884100F693D8 /* sparkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A8727172E64883F00F693D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					4A87271E2E64883F00F693D8 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					4A87272D2E64884100F693D8 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 4A87271E2E64883F00F693D8;
+					};
+					4A8727372E64884100F693D8 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 4A87271E2E64883F00F693D8;
+					};
+				};
+			};
+			buildConfigurationList = 4A87271A2E64883F00F693D8 /* Build configuration list for PBXProject "spark" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A8727162E64883F00F693D8;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4A7C95A22E69C5AA00A3DE43 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+				4A2363952E6B455500EB3AFC /* XCRemoteSwiftPackageReference "WKMarkdownView" */,
+				4A2363982E6B456700EB3AFC /* XCRemoteSwiftPackageReference "swift-llm-chat-openai" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4A8727202E64883F00F693D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A87271E2E64883F00F693D8 /* spark */,
+				4A87272D2E64884100F693D8 /* sparkTests */,
+				4A8727372E64884100F693D8 /* sparkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A87271D2E64883F00F693D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A87272C2E64884100F693D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8727362E64884100F693D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A87271B2E64883F00F693D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A87272A2E64884100F693D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8727342E64884100F693D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A8727302E64884100F693D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A87271E2E64883F00F693D8 /* spark */;
+			targetProxy = 4A87272F2E64884100F693D8 /* PBXContainerItemProxy */;
+		};
+		4A87273A2E64884100F693D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A87271E2E64883F00F693D8 /* spark */;
+			targetProxy = 4A8727392E64884100F693D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4A8727402E64884100F693D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = P26UV6YB94;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A8727412E64884100F693D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P26UV6YB94;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A8727432E64884100F693D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P26UV6YB94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = spark/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "火花Beta";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问相机来拍照发送图片";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "请求通过文件app上传附件";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要访问相册来选择图片发送";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiguang.chat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A8727442E64884100F693D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P26UV6YB94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = spark/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "火花Beta";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问相机来拍照发送图片";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "请求通过文件app上传附件";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要访问相册来选择图片发送";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiguang.chat.spark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A8727462E64884100F693D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P26UV6YB94;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiguang.chat.sparkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/spark";
+			};
+			name = Debug;
+		};
+		4A8727472E64884100F693D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P26UV6YB94;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiguang.chat.sparkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/spark";
+			};
+			name = Release;
+		};
+		4A8727492E64884100F693D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P26UV6YB94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiguang.chat.sparkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = spark;
+			};
+			name = Debug;
+		};
+		4A87274A2E64884100F693D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P26UV6YB94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiguang.chat.sparkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = spark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A87271A2E64883F00F693D8 /* Build configuration list for PBXProject "spark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A8727402E64884100F693D8 /* Debug */,
+				4A8727412E64884100F693D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A8727422E64884100F693D8 /* Build configuration list for PBXNativeTarget "spark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A8727432E64884100F693D8 /* Debug */,
+				4A8727442E64884100F693D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A8727452E64884100F693D8 /* Build configuration list for PBXNativeTarget "sparkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A8727462E64884100F693D8 /* Debug */,
+				4A8727472E64884100F693D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A8727482E64884100F693D8 /* Build configuration list for PBXNativeTarget "sparkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A8727492E64884100F693D8 /* Debug */,
+				4A87274A2E64884100F693D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4A2363952E6B455500EB3AFC /* XCRemoteSwiftPackageReference "WKMarkdownView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weihas/WKMarkdownView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.1;
+			};
+		};
+		4A2363982E6B456700EB3AFC /* XCRemoteSwiftPackageReference "swift-llm-chat-openai" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kevinhermawan/swift-llm-chat-openai.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.2;
+			};
+		};
+		4A7C95A22E69C5AA00A3DE43 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4A2363962E6B455500EB3AFC /* WKMarkdownView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A2363952E6B455500EB3AFC /* XCRemoteSwiftPackageReference "WKMarkdownView" */;
+			productName = WKMarkdownView;
+		};
+		4A2363992E6B456700EB3AFC /* LLMChatOpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A2363982E6B456700EB3AFC /* XCRemoteSwiftPackageReference "swift-llm-chat-openai" */;
+			productName = LLMChatOpenAI;
+		};
+		4A3CFE7E2E6ADBDF00CB6F4A /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A7C95A22E69C5AA00A3DE43 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		4A7C95A32E69C5AA00A3DE43 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A7C95A22E69C5AA00A3DE43 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		4A7C95A52E69C5AA00A3DE43 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A7C95A22E69C5AA00A3DE43 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		4A7C95A72E69C5AA00A3DE43 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A7C95A22E69C5AA00A3DE43 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		4A7C95A92E69C5AA00A3DE43 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A7C95A22E69C5AA00A3DE43 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		4A7C95AB2E69C5AA00A3DE43 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A7C95A22E69C5AA00A3DE43 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4A8727172E64883F00F693D8 /* Project object */;
+}

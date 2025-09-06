@@ -1,0 +1,96 @@
+{
+  "originHash" : "a3a88cc3cdbac849fb533e44dc9b7bdf82bda80383fc9f686d55a3fa7cb04b87",
+  "pins" : [
+    {
+      "identity" : "supabase-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/supabase/supabase-swift.git",
+      "state" : {
+        "revision" : "fecbbc8071a2416e215703d108b5020159217f2d",
+        "version" : "2.31.2"
+      }
+    },
+    {
+      "identity" : "swift-asn1",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-asn1.git",
+      "state" : {
+        "revision" : "f70225981241859eb4aa1a18a75531d26637c8cc",
+        "version" : "1.4.0"
+      }
+    },
+    {
+      "identity" : "swift-clocks",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pointfreeco/swift-clocks",
+      "state" : {
+        "revision" : "cc46202b53476d64e824e0b6612da09d84ffde8e",
+        "version" : "1.0.6"
+      }
+    },
+    {
+      "identity" : "swift-concurrency-extras",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pointfreeco/swift-concurrency-extras",
+      "state" : {
+        "revision" : "5a3825302b1a0d744183200915a47b508c828e6f",
+        "version" : "1.3.2"
+      }
+    },
+    {
+      "identity" : "swift-crypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-crypto.git",
+      "state" : {
+        "revision" : "d1c6b70f7c5f19fb0b8750cb8dcdf2ea6e2d8c34",
+        "version" : "3.15.0"
+      }
+    },
+    {
+      "identity" : "swift-http-types",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-http-types.git",
+      "state" : {
+        "revision" : "a0a57e949a8903563aba4615869310c0ebf14c03",
+        "version" : "1.4.0"
+      }
+    },
+    {
+      "identity" : "swift-json-schema",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kevinhermawan/swift-json-schema.git",
+      "state" : {
+        "revision" : "4a9284e44d8ef2bfc863734e9ff535909ae6b27a",
+        "version" : "2.0.1"
+      }
+    },
+    {
+      "identity" : "swift-llm-chat-openai",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kevinhermawan/swift-llm-chat-openai.git",
+      "state" : {
+        "revision" : "3ffffb4b85b3b764d72ef49adedce142bbd49e6c",
+        "version" : "1.3.2"
+      }
+    },
+    {
+      "identity" : "wkmarkdownview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/weihas/WKMarkdownView.git",
+      "state" : {
+        "revision" : "a23dcd3340fc7f7846c0244d54feb6008916f2bc",
+        "version" : "1.3.1"
+      }
+    },
+    {
+      "identity" : "xctest-dynamic-overlay",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pointfreeco/xctest-dynamic-overlay",
+      "state" : {
+        "revision" : "b2ed9eabefe56202ee4939dd9fc46b6241c88317",
+        "version" : "1.6.1"
+      }
+    }
+  ],
+  "version" : 3
+}
